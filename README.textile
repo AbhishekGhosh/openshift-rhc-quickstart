@@ -1,6 +1,6 @@
 h1. A quickstart to the OpenShift command line client tools (rhc)
 
-"OpenShift":http://openshift.redhat.com is a PaaS from Red Hat. It allows for deployment (and scaling) of apps written using Java, PHP, Ruby, Python, Perl including a number of frameworks and with support for MySQL, MongoDB, SQLite, PostgreSQL and even provides continuous integration tools (Jenkins), it's definitely an interesting range of tools.
+"OpenShift":http://thecustomizewindows.com/2012/09/red-hat-openshift-paas-smart-guide-to-host-your-app/ is a PaaS from Red Hat. It allows for deployment (and scaling) of apps written using Java, PHP, Ruby, Python, Perl including a number of frameworks and with support for MySQL, MongoDB, SQLite, PostgreSQL and even provides continuous integration tools (Jenkins), it's definitely an interesting range of tools.
 
 The deployments can be controlled via a REST api or the rhc command line tool. This short guide aims at helping the newcomers to get started quickly with the rhc command.
 
@@ -170,4 +170,4 @@ kill            kill running applications
 mongo           interactive MongoDB shell
 </pre>
 
-Lot of fun in there. There is also a shortcut for the interactive mongo shell. There doesn't seem to be any for mysql or postgres but you can use the standard command line tools or access to them via port forward as per "this blog entry":https://www.redhat.com/openshift/community/blogs/getting-started-with-port-forwarding-on-openshift
+Lot of fun in there. There is also a shortcut for the interactive mongo shell. There doesn't seem to be any for mysql or postgres but you can use the standard command line tools or access to them via port forward as per "this blog entry":http://thecustomizewindows.com/2013/04/shell-access-on-openshift/
